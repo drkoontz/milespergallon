@@ -6,7 +6,10 @@ namespace milespergallon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double miles = 500.0;
+            double gallons = 23.7;
+            double mpg = miles / gallons;
+            Console.WriteLine("mpg = "+mpg);
         }
     }
 }
